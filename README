@@ -1,0 +1,19 @@
+Thanks to Tom3Q for his git://github.com/tom3q/spica-2.6.38.git and making 
+it easier to convert our Jet to a later kernel.
+
+This original files boots the GT-i5700 
+
+What:
+* This files is all WIP "Work In Progress" .
+* Names and kconfig + Makefiles have been adjusted but all need more attention.
+* Several files like audio needs corrected values for buttons volume etc...
+
+Next step:
+* Need to add more files related to Jet hardware as well as their specific 
+  Makefiles and Kconfig to complete this.
+* Also need to add and convert older 2.6.29 files to 2.6.38 layout like 
+  s3cfb_ams310fn07 and related.
+* Need to add the desperate 2.6.38 modules to complete this.
+
+Possible errors:
+* The audio file might need to change from ak4671 to ?? .
